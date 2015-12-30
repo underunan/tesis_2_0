@@ -10,22 +10,10 @@
 	<link rel="stylesheet" href="css/style_search_v2.css">
 </head>
 <body>
-<!--
-	<header class="row cabecera">
-		<div>
-			<figure>
-				<a href="index.html"><img src="img/logo.png" alt="Logo"></a>
-			</figure>
-		</div>
-		<div class="caja-menu">
-			<ul class="menu">
-				<li><a href="#">Únete</a></li>
-				<li><a href="#">Registrate</a></li>
-				<li><a href="#" class="btn btn-success">Pública tu tienda</a></li>
-			</ul>
-		</div>
+	<header class="container cabecera">
+		<?php include 'barra-navegacion/navbar.php';?>
 	</header>
-	-->
+	<!--
 	<header class="container cabecera">
 		<div class="row">
 			<nav class="cabecera-nav">
@@ -68,12 +56,10 @@
 				 </div>  
 			</nav>
 		</div>
-		<!--
-		<div class="row">
-			<div class="ruta col-sm-12 col-xs-12 well"></div>
-		</div>
-		-->
 	</header>
+	-->
+	
+
 	<section class="section-map">
 		<!--Mapa ubicado en la parte derecho-->
 		<div class="aside">

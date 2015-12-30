@@ -5,12 +5,10 @@
 				   	<div class="container-fluid">
 				   		<div class="navbar-header">
 							<button type="button" id="btnMenu" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				   				<span class="sr-only">Menu</span>
-				   				<span class="icon-bar"></span>
-				   				<span class="icon-bar"></span>
-				   				<span class="icon-bar"></span>			
+				   				<span class="icon icon-menu3"></span>		
 				   			</button>
-
+				   			
+							
 				   			<a href="#" class="navbar-brand">
 				   				<img src="img/logo.png" alt="Brand">
 				   			</a>
@@ -18,16 +16,26 @@
 				   		</div>
 
 				   		 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav pull-right col-xs-12 col-sm-5 col-md-4">
+							<ul class="nav navbar-nav pull-right col-xs-12 col-sm-8 col-md-4">
 					    	<li>
 						    	<a href="#modalUnete" data-toggle="modal">
-						    	<span class="glyphicon glyphicon-user"></span>Únete
+						    	<span class="icon icon-user"></span> Únete
 						    	</a>
 					    	</li>
 					    	<li>
 					    		<a href="#"><span class="glyphicon glyphicon-bullhorn"></span> Publica</a>
 					    	</li>
 					    	<li role="presentation"><a href="registro.php"><span class="glyphicon glyphicon-pencil"></span> Registrate</a></li>
+					    	<li role="presentation" class="dropdown">
+					    		<a href="#" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Catálogo <span class="icon icon-menu3"></span></a>
+
+					    		<ul class="dropdown-menu nav nav-pills nav-stacked" aria-labelledby="dLabel">
+				   		 		<li class=""><a href="#"><span class=""></span> Elétronico</a></li>
+				   		 		<li class=""><a href="#">Ropa hombre</a></li>
+				   		 		<li class=""><a href="#">Ropa mujeres</a></li>
+				   		 		<li class=""><a href="#">Otros</a></li>
+				   		 	</ul>
+					    	</li>
 				    	</ul>
 				   		 </div>
 

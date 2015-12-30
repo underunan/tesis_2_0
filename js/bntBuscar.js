@@ -4,6 +4,6 @@ $(function(){
 
 	$('.formulario').on('click',function(ev){
 		ev.preventDefault();
-		location.href = 'resultado_busqueda_v2.html';
+		location.href = 'resultado_busqueda_v2.php';
 	});
 });

@@ -10,6 +10,10 @@
 </head>
 <body>
 	<header class="container cabecera">
+		<?php include 'barra-navegacion/navbar.php';?>
+	</header>
+	<!--
+	<header class="container cabecera">
 		<div class="row">
 			<nav class="cabecera-nav">
 				<div class="col-sm-12">
@@ -25,7 +29,7 @@
 				   				<span class="icon-bar"></span>			
 				   			</button>
 				   		</div>
-				   		<!--<div class="collapse navbar-collapse" id="bs-navbar-collapse-1">-->
+				   		<div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
 					   		<ul class="nav nav-pills pull-right hidden-xs">
 					   			<li role="presentation" class="moneda dropdown">
 					   				<a class="select-moneda dropdown-toggle"></a>
@@ -90,22 +94,16 @@
 						    	<li role="presentation"><a href="#"><span class="glyphicon glyphicon-bullhorn"></span> Publica</a></li>
 						    	<li role="presentation"><a href="#"><span class="glyphicon glyphicon-pencil"></span> Registrate</a></li>
 					    	</ul>
-				    	<!--</div>-->
+				    	</div>
 				   	</div>
 				 </div>  
 			</nav>
 		</div>
 		<div class="cabecera-2 row">
-			<!--
-			<div class="logo col-sm-1 pull-left">
-				<a href="index.html" class="img-responsive">
-					<img src="img/logo.png" class="img-responsive img-rounded" alt="Logo">
-				</a>
-			</div>
-			-->
+
 			<div class="col-xs-8 col-sm-10 pull-right">
 				<ol class="breadcrumb">
-					<li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Inicio</a><span class="glyphicon glyphicon-menu-right"></span></li>
+					<li><a href="/tesis_2_0"><span class="glyphicon glyphicon-home"></span> Inicio</a><span class="glyphicon glyphicon-menu-right"></span></li>
 					<li class="active">Producto</li>
 				</ol>
 			</div>
@@ -116,12 +114,8 @@
 				</a>
 			</div>
 		</div>
-		<!--
-		<div class="row">
-			<div class="ruta col-sm-12 col-xs-12 well"></div>
-		</div>
-		-->
 	</header>
+	-->
 	<section class="container">
 		<div class="row">
 			<div class="barra-izquierda col-sm-5">
