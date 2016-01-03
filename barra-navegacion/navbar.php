@@ -4,7 +4,7 @@
 				<div class="topHead navbar navbar-default">
 				   	<div class="container-fluid">
 				   		<div class="navbar-header">
-							<button type="button" id="btnMenu" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<button type="button" id="btnMenu" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
 				   				<span class="icon icon-menu3"></span>		
 				   			</button>
 				   			
@@ -15,8 +15,8 @@
 				   			
 				   		</div>
 
-				   		 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav pull-right col-xs-12 col-sm-8 col-md-4">
+				   		 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+							<ul class="nav navbar-nav pull-right col-xs-12 col-sm-8 col-md-5">
 					    	<li>
 						    	<a href="#modalUnete" data-toggle="modal">
 						    	<span class="icon icon-user"></span> Únete
@@ -27,14 +27,20 @@
 					    	</li>
 					    	<li role="presentation"><a href="registro.php"><span class="glyphicon glyphicon-pencil"></span> Registrate</a></li>
 					    	<li role="presentation" class="dropdown">
-					    		<a href="#" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Catálogo <span class="icon icon-menu3"></span></a>
+					    		<a href="#modalCatalogo" data-toggle="modal"><span class="icon icon-menu3"></span> Catálogo</a>
+					    		<!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span class="icon icon-menu3"></span> Catálogo</a> -->
 
-					    		<ul class="dropdown-menu nav nav-pills nav-stacked" aria-labelledby="dLabel">
-				   		 		<li class=""><a href="#"><span class=""></span> Elétronico</a></li>
-				   		 		<li class=""><a href="#">Ropa hombre</a></li>
-				   		 		<li class=""><a href="#">Ropa mujeres</a></li>
-				   		 		<li class=""><a href="#">Otros</a></li>
-				   		 	</ul>
+					    		<!--<ul class="dropdown-menu nav nav-pills nav-stacked" aria-labelledby="dLabel">
+					    		<li role="separator" class="divider"></li>
+				   		 		<li class=""><a href="#"><span class="icon icon-display pull-right"></span>Elétronico</a></li>
+				   		 		<li role="separator" class="divider"></li>
+				   		 		<li class=""><a href="#"><span class="icon icon-man pull-right"></span> Ropa hombre</a></li>
+				   		 		<li role="separator" class="divider"></li>
+				   		 		<li class=""><a href="#"><span class="icon icon-woman pull-right"></span> Ropa mujeres</a></li>
+				   		 		<li role="separator" class="divider"></li>
+				   		 		<li class=""><a href="#"> <span class="icon icon-plus pull-right"></span> Otros</a></li>
+				   		 		<li role="separator" class="divider"></li>
+				   		 	</ul>-->
 					    	</li>
 				    	</ul>
 				   		 </div>
@@ -48,16 +54,66 @@
 					    	<li role="presentation"><a href="#"><span class="glyphicon glyphicon-bullhorn"></span> Publica</a></li>
 					    	<li role="presentation"><a href="registro.php"><span class="glyphicon glyphicon-pencil"></span> Registrate</a></li>
 				    	</ul>-->
+					<!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+				    	<ul class="nav nav-pills nav-stacked visible-xs col-xs-12" >
+						    <li role="presentation">
+						    	<a href="#modalUnete" data-toggle="modal">
+						    	<span class="icon icon-user"></span> Únete
+						    	</a>
+					    	</li>
+					    	<li role="presentation">
+					    		<a href="#"><span class="glyphicon glyphicon-bullhorn"></span> Publica</a>
+					    	</li>
+					    	<li role="presentation"><a href="registro.php"><span class="glyphicon glyphicon-pencil"></span> Registrate</a></li>
+					    	<li role="presentation" class="dropdown">
+					    		<a href="#" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span class="icon icon-menu3"></span> Catálogo</a>
 
-				    	<!--<ul class="collapse nav nav-pills nav-stacked visible-xs" id="bs-navbar-collapse-1">
-						    	<li role="presentation" class="login">
-							    	<a href="#modalUnete" data-toggle="modal"><span class="glyphicon glyphicon-user"></span> Únete</a>
-						    	</li>
-						    	<li role="presentation"><a href="#"><span class="glyphicon glyphicon-bullhorn"></span> Publica</a></li>
-						    	<li role="presentation"><a href="registro.php"><span class="glyphicon glyphicon-pencil"></span> Registrate</a></li>
-					    </ul> -->
+					    		<ul class="dropdown-menu">
+					   		 		<li class=""><a href="#"><span class=""></span> Elétronico</a></li>
+					   		 		<li class=""><a href="#">Ropa hombre</a></li>
+					   		 		<li class=""><a href="#">Ropa mujeres</a></li>
+					   		 		<li class=""><a href="#">Otros</a></li>
+				   		 		</ul>
+					    	</li>
+					    </ul>
+					    </div>-->
 					 </div>
 			</div>
+			
+			<div class="modal fade" id="modalCatalogo" tabindex="-1" role="dialog" aria-labelledby="myModalUnete">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content well">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				        	<span aria-hidden="true">&times;</span>
+				        </button>
+
+				        <!--Titulo de la ventana-->
+				        <h3 class="modal-title text-center" id="myModalUnete">Catálogo</h3>
+				      </div>
+
+				      <!--Formulario de inicio de sesión-->
+				      <div class="modal-body">
+				        <div class="container-fluid">
+				        	<ul class="nav nav-pills nav-stacked" aria-labelledby="dLabel">
+				   		 		<li class=""><a href="#"><span class="icon icon-display pull-right"></span>Elétronico</a></li>
+
+				   		 		<li class=""><a href="#"><span class="icon icon-man pull-right"></span> Ropa hombre</a></li>
+
+				   		 		<li class=""><a href="#"><span class="icon icon-woman pull-right"></span> Ropa mujeres</a></li>
+
+				   		 		<li class=""><a href="#"> <span class="icon icon-plus pull-right"></span> Otros</a></li>
+
+				   		 	</ul>
+				        </div>
+				      </div>
+						
+						<div class="modal-footer">
+					  		
+					 	</div>
+				    </div>
+				  </div>
+				</div>
 
 			<div class="modal fade" id="modalUnete" tabindex="-1" role="dialog" aria-labelledby="myModalUnete">
 				  <div class="modal-dialog modal-sm" role="document">
